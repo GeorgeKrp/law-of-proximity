@@ -8,11 +8,11 @@
 
 body {
   font-size: 1.333rem;
-  background: #ffffff;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   line-height: 1.75;
   color: #000000;
+  background: linear-gradient(135deg, #c7f9cc, #80ed99, #57cc99, #38a3a5, #22577a);
 }
 
 p {
@@ -67,20 +67,18 @@ header {
   margin-bottom: 4em;
 }
 
-
-header>div {
+header > div {
   padding: 8em 2em;
   margin: 0 auto;
   max-width: 900px;
-
 }
 
-header>div>h1 {
+header > div > h1 {
   text-transform: uppercase;
   font-weight: 400;
 }
 
-header>div>h1>span {
+header > div > h1 > span {
   display: block;
   font-weight: 900;
 }
@@ -104,24 +102,22 @@ img {
   width: 100%;
 }
 
-
 figure {
   background-color: #000000;
   padding: 0;
   margin: 2em 0 4em 0;
-  /* border-bottom: 1px solid black; */
   color: #ffffff;
   text-align: justify;
   border: 1em solid black;
   border-radius: 8px;
 }
 
-figure>img {
+figure > img {
   border-radius: 8px;
   overflow: hidden;
 }
 
-figure>figcaption {
+figure > figcaption {
   background-color: #000000;
   padding: 1em;
   line-height: 1.5;
@@ -136,7 +132,7 @@ footer {
   margin-top: 6em;
 }
 
-footer>p {
+footer > p {
   display: block;
   max-width: 900px;
   padding: 4em 2em;

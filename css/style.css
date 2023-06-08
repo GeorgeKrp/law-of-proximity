@@ -18,11 +18,11 @@ header {
   color: #ffffff;
 }
 
-header>div {
+header > div {
   padding: 4em;
 }
 
-header>div.container>h1 {
+header > div.container > h1 {
   text-transform: uppercase;
 }
 
@@ -33,11 +33,9 @@ article {
   line-height: 1.6;
 }
 
-article * {
-  /* border: 9px solid pink; */
-}
 
-article p, figure {
+article p,
+figure {
   margin-bottom: 2em;
 }
 
@@ -46,6 +44,6 @@ footer {
   color: #ffffff;
 }
 
-footer>p {
+footer > p {
   padding: 4em;
 }
